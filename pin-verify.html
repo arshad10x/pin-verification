@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pin Verification</title>
+    <link rel="stylesheet" href="./pin.css">
+  </head>
+ 
+  <body>
+    <form>
+        <div class="card">
+         <div class="card-main">
+          <div class="card-header">
+            <label >Enter Card Details</label>
+            </div> 
+          <div class="card-body">
+            <input type="text" value="101034789534" readonly>
+            <input type="text" id="pin" placeholder="Enter Pin" autocomplete="off">
+          </div>
+          <div class="card-footer">
+          <button class="btn" id="btnSubmit" type="button" onclick="verifyPin()">Submit</button>
+          </div>
+          <div class="success" id="message">
+
+          </div>
+         </div>
+        </div>
+    </form>
+    
+    <script src="../script/pin.js"></script>
+  </body>
+</html>
