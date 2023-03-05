@@ -13,6 +13,7 @@ function verifyPin() {
         Pin Verified Sucessfully
         `.fontcolor("green").bold();
         attempts = 0;
+        
     } else {
         if (attempts < maxAttempts) {
             attempts++;
